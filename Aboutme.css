@@ -1,0 +1,154 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding-top: 25px;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    overflow: visible;
+    background-color: gray;
+}
+
+#links {
+  display: inline;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 30px;
+  width: 50px;
+  background-color: gray;
+  padding-left: 25px;
+}
+
+#l {
+  text-decoration: none;
+  color: white;
+}
+
+#links:hover {
+  background-color: yellow;
+}
+
+#l:hover {
+  color: black;
+}
+
+#welcome {
+  font-size: 100px;
+  font-family: monospace;
+  color: black;
+  text-align: center;
+}
+
+#instructions {
+  font-size: 50px;
+  font-family: monospace;
+  color: darkgray;
+  text-align: center;
+}
+
+#div_home {
+  padding-top: 160px;
+}
+
+#me_img {
+  padding-top: 20px;
+  padding-left: 30px;
+  height: 400px;
+  width: 300px;
+  float: left;
+}
+
+#div_about {
+  padding-top: 70px;
+  padding-left: 340px;
+}
+
+#about {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#hobbies_heading {
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+}
+#hobbietext {
+  padding-top: 60px;
+}
+
+#books_img {
+  height: 250px;
+  width: 200px;
+  padding-top: 20px;
+  padding-left: 30px;
+  position: relative;
+  float: left;
+  display: none;
+}
+
+#books_img2 {
+  height: 250px;
+  width: 200px;
+  padding-top: 20px;
+  padding-left: 30px;
+  display: none;
+}
+
+#books_img3 {
+  height: 250px;
+  width: 200px;
+  padding-top: 20px;
+  padding-left: 30px;
+  display: none;
+}
+
+#books_text {
+  font-size: 30px;
+  font-weight: bold;
+  padding-right: 154px;
+  padding-left: 154px;
+}
+
+#dance_img {
+  height: 250px;
+  width: 200px;
+  padding-top: 0px;
+  padding-left: 110px;
+  display: none;
+}
+
+#dance_text {
+  font-size: 30px;
+  font-weight: bold;
+  padding-right: 154px;
+  padding-left: 154px;
+}
+
+#tvshow_img {
+  height: 250px;
+  width: 200px;
+  padding-top: 0px;
+  padding-left: 110px;
+  display: none;
+}
+
+#tvshow_img2 {
+  height: 250px;
+  width: 200px;
+  padding-top: 0px;
+  padding-left: 110px;
+  display: none;
+}
+
+#tvshow_text {
+  font-size: 30px;
+  font-weight: bold;
+  padding-right: 154px;
+  padding-left: 154px;
+}

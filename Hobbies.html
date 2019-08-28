@@ -1,0 +1,82 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hobbies</title>
+    <link rel="stylesheet" href="Aboutme.css">
+  </head>
+  <script>
+    function visibility() {
+    var a = document.getElementById("books_img2");
+    var b = document.getElementById("books_img3");
+    var x = document.getElementById("books_img");
+    var y = document.getElementById("dance_text");
+    var z = document.getElementById("tvshow_text")
+    if (x.style.display === "none") {
+      b.style.display = "inline";
+      x.style.display = "inline";
+      a.style.display = "inline";
+      y.style.display = "none";
+      z.style.display = "none";
+    } else {
+      b.style.display = "none";
+      x.style.display = "none";
+      a.style.display = "none";
+      y.style.display = "inline";
+      z.style.display = "inline";
+    }
+  }
+
+    function visibility2() {
+    var x = document.getElementById("dance_img");
+    var y = document.getElementById("books_text");
+    var z = document.getElementById("tvshow_text");
+    if (x.style.display === "none") {
+      x.style.display = "inline";
+      y.style.display = "none";
+      z.style.display = "none";
+    } else {
+      x.style.display = "none";
+      y.style.display = "inline";
+      z.style.display = "inline";
+    }
+  }
+
+    function visibility3() {
+    var x = document.getElementById("tvshow_img");
+    var a = document.getElementById("tvshow_img2")
+    var y = document.getElementById("books_text");
+    var z = document.getElementById("dance_text")
+    if (x.style.display === "none") {
+      a.style.display = "inline";
+      x.style.display = "inline";
+      y.style.display = "none";
+      z.style.display = "none";
+    } else {
+      a.style.display = "none";
+      x.style.display = "none";
+      y.style.display = "inline";
+      z.style.display = "inline";
+    }
+  }
+  </script>
+  <body>
+    <ul id = "navbar">
+      <li id = "links"><a id = "l" href="index.html">Home</a></li>
+      <li id = "links"><a id = "l" href="Aboutme2.html">About</a></li>
+      <li id = "links"><a id = "l" href="Hobbies.html">Hobbies</a></li>
+      <li id = "links"><a id = "l" href="Other.html">Other Websites</a></li>
+    </ul>
+    <div id = "hobbietext">
+      <h1 id = "hobbies_heading">My Hobbies Include:</h1>
+      <img id = "books_img" src="barnesnoble.jpeg">
+      <img id = "books_img2" src="whilewerun.jpeg">
+      <img id = "books_img3" src="harrypotter.jpeg">
+      <button onclick = "visibility()" id = "books_text">Reading</button>
+      <a href="https://nebraskadance.com/"><img id = "dance_img" src="dance.jpeg"></a>
+      <button onclick="visibility2()" id = "dance_text">Dancing</button>
+      <a href="https://www.theguardian.com/culture/2014/nov/03/over-the-garden-wall-slapstick-kids-existential-dread-adults"><img id = "tvshow_img" src="tvshow.jpeg"></a>
+      <img id = "tvshow_img2" src="adventuretime.jpeg">
+      <button onclick="visibility3()" id = "tvshow_text">Watching TV</button>
+    </div>
+  </body>
+</html>
