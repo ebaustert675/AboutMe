@@ -152,3 +152,19 @@ body {
   padding-right: 154px;
   padding-left: 154px;
 }
+
+#web {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+}
+
+#web2 {
+  padding-top: 90px;
+}
+
+#web:hover {
+  font-size: 30px;
+  color: gray;
+}
